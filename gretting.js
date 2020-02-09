@@ -29,7 +29,7 @@ function paintGreeting(text) {
   let greet = "Good morning";
   if (hr > 12 && hr < 18) {
     greet = "Good affternoon";
-  } else if (hr >= 18) {
+  } else if (hr >= 18 && hr < 22) {
     greet = "Good evening";
   } else if (hr >= 22 || hr < 5) {
     greet = "Good night";
